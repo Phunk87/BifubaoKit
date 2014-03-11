@@ -8,8 +8,15 @@
 
 #import "BKAPIEngine.h"
 
+#import "AFNetworking.h"
 #import "BKRequest.h"
 #import "BKResponse.h"
+
+@interface BKAPIEngine ()
+
+@property (nonatomic, strong) AFHTTPSessionManager  *sessionManager;
+
+@end
 
 @implementation BKAPIEngine
 
@@ -21,6 +28,16 @@
     });
     
     return engine;
+}
+
+- (id)init {
+    self = [super init];
+    if (self) {
+        AFHTTPSessionManager *sessionManager = [[AFHTTPSessionManager alloc] initWithBaseURL:[NSURL URLWithString:BK_API_URI]];
+        self.sessionManager = sessionManager;
+    }
+    
+    return self;
 }
 
 - (void)sendRequest:(BKRequest *)request completion:(BKRequestCompletionBlock)hanler {

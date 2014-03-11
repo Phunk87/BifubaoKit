@@ -10,4 +10,6 @@
 
 @interface BKRequest : NSObject
 
+@property (nonatomic, strong) NSDictionary  *para
+
 @end

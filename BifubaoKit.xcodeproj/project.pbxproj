@@ -411,10 +411,10 @@
 		76D256A718CF69A7006C3BF8 /* Object */ = {
 			isa = PBXGroup;
 			children = (
-				76D2565D18CF593B006C3BF8 /* BKResponse.h */,
-				76D2565E18CF593B006C3BF8 /* BKResponse.m */,
 				76D256A318CF69A0006C3BF8 /* BKRequest.h */,
 				76D256A418CF69A0006C3BF8 /* BKRequest.m */,
+				76D2565D18CF593B006C3BF8 /* BKResponse.h */,
+				76D2565E18CF593B006C3BF8 /* BKResponse.m */,
 			);
 			name = Object;
 			sourceTree = "<group>";
