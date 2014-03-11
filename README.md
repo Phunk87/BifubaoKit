@@ -30,7 +30,7 @@ git submodule update --init --recursive
 ## Requirements
 
 - ARC
-- BifubaoKit and higher requires Xcode 5, targeting either iOS 6.0 and above, or Mac OS 10.8 Mountain Lion (64-bit with modern Cocoa runtime) and above.
+- BifubaoKit and higher requires Xcode 5, targeting iOS 6.0 and above.
 
 ## RESOUCES
 
