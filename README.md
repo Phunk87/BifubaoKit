@@ -3,7 +3,9 @@ A delightful [Bifubao](https://www.bifubao.com) SDK framework for iOS.
 
 ## HOW
 
-### step 1: clone
+### step 1: get code
+
+clone
 
 ```
 git clone https://github.com/0dayZh/BifubaoKit.git
