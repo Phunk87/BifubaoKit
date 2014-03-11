@@ -6,8 +6,11 @@
 //  Copyright (c) 2014年 coinfo. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#ifndef BifubaoKit_BifubaoKit_h
+#define BifubaoKit_BifubaoKit_h
 
-@interface BifubaoKit : NSObject
+#import "BKMacroDefines.h"
+#import "BKObjectDefines.h"
+#import "BKAPIEngineDefines.h"
 
-@end
+#endif

@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		76D2560C18CF5240006C3BF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D2560B18CF5240006C3BF8 /* Foundation.framework */; };
-		76D2561118CF5240006C3BF8 /* BifubaoKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76D2561018CF5240006C3BF8 /* BifubaoKit.h */; };
-		76D2561318CF5240006C3BF8 /* BifubaoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2561218CF5240006C3BF8 /* BifubaoKit.m */; };
 		76D2561A18CF5240006C3BF8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D2561918CF5240006C3BF8 /* XCTest.framework */; };
 		76D2561B18CF5240006C3BF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D2560B18CF5240006C3BF8 /* Foundation.framework */; };
 		76D2561D18CF5240006C3BF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D2561C18CF5240006C3BF8 /* UIKit.framework */; };
@@ -34,6 +32,34 @@
 		76D2565518CF56EC006C3BF8 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2564318CF56EC006C3BF8 /* AFURLResponseSerialization.m */; };
 		76D2565618CF56EC006C3BF8 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2564518CF56EC006C3BF8 /* AFURLSessionManager.m */; };
 		76D2565718CF56EC006C3BF8 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2564518CF56EC006C3BF8 /* AFURLSessionManager.m */; };
+		76D2565B18CF58F6006C3BF8 /* BKAPIEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2565A18CF58F6006C3BF8 /* BKAPIEngine.m */; };
+		76D2565C18CF58F6006C3BF8 /* BKAPIEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2565A18CF58F6006C3BF8 /* BKAPIEngine.m */; };
+		76D2565F18CF593B006C3BF8 /* BKResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2565E18CF593B006C3BF8 /* BKResponse.m */; };
+		76D2566018CF593B006C3BF8 /* BKResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2565E18CF593B006C3BF8 /* BKResponse.m */; };
+		76D2566618CF5D04006C3BF8 /* BKAPIEngine+User.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2566518CF5D04006C3BF8 /* BKAPIEngine+User.m */; };
+		76D2566718CF5D04006C3BF8 /* BKAPIEngine+User.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2566518CF5D04006C3BF8 /* BKAPIEngine+User.m */; };
+		76D2566B18CF5EE0006C3BF8 /* BKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2566A18CF5EE0006C3BF8 /* BKUser.m */; };
+		76D2566C18CF5EE0006C3BF8 /* BKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2566A18CF5EE0006C3BF8 /* BKUser.m */; };
+		76D2567018CF61A7006C3BF8 /* NSString+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2566F18CF61A7006C3BF8 /* NSString+Date.m */; };
+		76D2567118CF61A7006C3BF8 /* NSString+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2566F18CF61A7006C3BF8 /* NSString+Date.m */; };
+		76D2567418CF6388006C3BF8 /* BKSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2567318CF6388006C3BF8 /* BKSession.m */; };
+		76D2567518CF6388006C3BF8 /* BKSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2567318CF6388006C3BF8 /* BKSession.m */; };
+		76D2567A18CF6804006C3BF8 /* BKAPIEngine+Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2567918CF6804006C3BF8 /* BKAPIEngine+Phone.m */; };
+		76D2567B18CF6804006C3BF8 /* BKAPIEngine+Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2567918CF6804006C3BF8 /* BKAPIEngine+Phone.m */; };
+		76D2567E18CF681A006C3BF8 /* BKAPIEngine+App.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2567D18CF681A006C3BF8 /* BKAPIEngine+App.m */; };
+		76D2567F18CF681A006C3BF8 /* BKAPIEngine+App.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2567D18CF681A006C3BF8 /* BKAPIEngine+App.m */; };
+		76D2568218CF6832006C3BF8 /* BKAPIEngine+TX.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2568118CF6832006C3BF8 /* BKAPIEngine+TX.m */; };
+		76D2568318CF6832006C3BF8 /* BKAPIEngine+TX.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2568118CF6832006C3BF8 /* BKAPIEngine+TX.m */; };
+		76D2568618CF6846006C3BF8 /* BKAPIEngine+Exchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2568518CF6846006C3BF8 /* BKAPIEngine+Exchange.m */; };
+		76D2568718CF6846006C3BF8 /* BKAPIEngine+Exchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2568518CF6846006C3BF8 /* BKAPIEngine+Exchange.m */; };
+		76D2568A18CF685B006C3BF8 /* BKAPIEngine+Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2568918CF685B006C3BF8 /* BKAPIEngine+Contact.m */; };
+		76D2568B18CF685B006C3BF8 /* BKAPIEngine+Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2568918CF685B006C3BF8 /* BKAPIEngine+Contact.m */; };
+		76D2568E18CF6873006C3BF8 /* BKAPIEngine+Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2568D18CF6873006C3BF8 /* BKAPIEngine+Address.m */; };
+		76D2568F18CF6873006C3BF8 /* BKAPIEngine+Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2568D18CF6873006C3BF8 /* BKAPIEngine+Address.m */; };
+		76D2569218CF6883006C3BF8 /* BKAPIEngine+Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2569118CF6883006C3BF8 /* BKAPIEngine+Order.m */; };
+		76D2569318CF6883006C3BF8 /* BKAPIEngine+Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2569118CF6883006C3BF8 /* BKAPIEngine+Order.m */; };
+		76D2569618CF6893006C3BF8 /* BKAPIEngine+Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2569518CF6893006C3BF8 /* BKAPIEngine+Product.m */; };
+		76D2569718CF6893006C3BF8 /* BKAPIEngine+Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2569518CF6893006C3BF8 /* BKAPIEngine+Product.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +79,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				76D2561118CF5240006C3BF8 /* BifubaoKit.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,8 +88,6 @@
 		76D2560818CF5240006C3BF8 /* libBifubaoKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBifubaoKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		76D2560B18CF5240006C3BF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		76D2560F18CF5240006C3BF8 /* BifubaoKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BifubaoKit-Prefix.pch"; sourceTree = "<group>"; };
-		76D2561018CF5240006C3BF8 /* BifubaoKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BifubaoKit.h; sourceTree = "<group>"; };
-		76D2561218CF5240006C3BF8 /* BifubaoKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BifubaoKit.m; sourceTree = "<group>"; };
 		76D2561818CF5240006C3BF8 /* BifubaoKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BifubaoKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76D2561918CF5240006C3BF8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		76D2561C18CF5240006C3BF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -90,6 +113,38 @@
 		76D2564318CF56EC006C3BF8 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		76D2564418CF56EC006C3BF8 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		76D2564518CF56EC006C3BF8 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		76D2565818CF5886006C3BF8 /* BifubaoKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BifubaoKit.h; sourceTree = "<group>"; };
+		76D2565918CF58F6006C3BF8 /* BKAPIEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKAPIEngine.h; sourceTree = "<group>"; };
+		76D2565A18CF58F6006C3BF8 /* BKAPIEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKAPIEngine.m; sourceTree = "<group>"; };
+		76D2565D18CF593B006C3BF8 /* BKResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKResponse.h; sourceTree = "<group>"; };
+		76D2565E18CF593B006C3BF8 /* BKResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKResponse.m; sourceTree = "<group>"; };
+		76D2566318CF5C87006C3BF8 /* BKMacroDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKMacroDefines.h; sourceTree = "<group>"; };
+		76D2566418CF5D04006C3BF8 /* BKAPIEngine+User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BKAPIEngine+User.h"; sourceTree = "<group>"; };
+		76D2566518CF5D04006C3BF8 /* BKAPIEngine+User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BKAPIEngine+User.m"; sourceTree = "<group>"; };
+		76D2566918CF5EE0006C3BF8 /* BKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKUser.h; sourceTree = "<group>"; };
+		76D2566A18CF5EE0006C3BF8 /* BKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKUser.m; sourceTree = "<group>"; };
+		76D2566E18CF61A7006C3BF8 /* NSString+Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Date.h"; sourceTree = "<group>"; };
+		76D2566F18CF61A7006C3BF8 /* NSString+Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Date.m"; sourceTree = "<group>"; };
+		76D2567218CF6388006C3BF8 /* BKSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKSession.h; sourceTree = "<group>"; };
+		76D2567318CF6388006C3BF8 /* BKSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKSession.m; sourceTree = "<group>"; };
+		76D2567618CF674D006C3BF8 /* BKObjectDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKObjectDefines.h; sourceTree = "<group>"; };
+		76D2567718CF6789006C3BF8 /* BKAPIEngineDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKAPIEngineDefines.h; sourceTree = "<group>"; };
+		76D2567818CF6804006C3BF8 /* BKAPIEngine+Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BKAPIEngine+Phone.h"; sourceTree = "<group>"; };
+		76D2567918CF6804006C3BF8 /* BKAPIEngine+Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BKAPIEngine+Phone.m"; sourceTree = "<group>"; };
+		76D2567C18CF681A006C3BF8 /* BKAPIEngine+App.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BKAPIEngine+App.h"; sourceTree = "<group>"; };
+		76D2567D18CF681A006C3BF8 /* BKAPIEngine+App.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BKAPIEngine+App.m"; sourceTree = "<group>"; };
+		76D2568018CF6832006C3BF8 /* BKAPIEngine+TX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BKAPIEngine+TX.h"; sourceTree = "<group>"; };
+		76D2568118CF6832006C3BF8 /* BKAPIEngine+TX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BKAPIEngine+TX.m"; sourceTree = "<group>"; };
+		76D2568418CF6846006C3BF8 /* BKAPIEngine+Exchange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BKAPIEngine+Exchange.h"; sourceTree = "<group>"; };
+		76D2568518CF6846006C3BF8 /* BKAPIEngine+Exchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BKAPIEngine+Exchange.m"; sourceTree = "<group>"; };
+		76D2568818CF685B006C3BF8 /* BKAPIEngine+Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BKAPIEngine+Contact.h"; sourceTree = "<group>"; };
+		76D2568918CF685B006C3BF8 /* BKAPIEngine+Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BKAPIEngine+Contact.m"; sourceTree = "<group>"; };
+		76D2568C18CF6873006C3BF8 /* BKAPIEngine+Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BKAPIEngine+Address.h"; sourceTree = "<group>"; };
+		76D2568D18CF6873006C3BF8 /* BKAPIEngine+Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BKAPIEngine+Address.m"; sourceTree = "<group>"; };
+		76D2569018CF6883006C3BF8 /* BKAPIEngine+Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BKAPIEngine+Order.h"; sourceTree = "<group>"; };
+		76D2569118CF6883006C3BF8 /* BKAPIEngine+Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BKAPIEngine+Order.m"; sourceTree = "<group>"; };
+		76D2569418CF6893006C3BF8 /* BKAPIEngine+Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BKAPIEngine+Product.h"; sourceTree = "<group>"; };
+		76D2569518CF6893006C3BF8 /* BKAPIEngine+Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BKAPIEngine+Product.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,8 +203,11 @@
 		76D2560D18CF5240006C3BF8 /* BifubaoKit */ = {
 			isa = PBXGroup;
 			children = (
-				76D2561018CF5240006C3BF8 /* BifubaoKit.h */,
-				76D2561218CF5240006C3BF8 /* BifubaoKit.m */,
+				76D2565818CF5886006C3BF8 /* BifubaoKit.h */,
+				76D2566318CF5C87006C3BF8 /* BKMacroDefines.h */,
+				76D2566D18CF6198006C3BF8 /* Util */,
+				76D2566218CF5BBB006C3BF8 /* Object */,
+				76D2566118CF5BB7006C3BF8 /* API */,
 				76D2560E18CF5240006C3BF8 /* Supporting Files */,
 			);
 			path = BifubaoKit;
@@ -214,6 +272,137 @@
 			);
 			name = AFNetworking;
 			path = Vendor/AFNetworking/AFNetworking;
+			sourceTree = "<group>";
+		};
+		76D2566118CF5BB7006C3BF8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				76D2567718CF6789006C3BF8 /* BKAPIEngineDefines.h */,
+				76D256A218CF690F006C3BF8 /* Engine */,
+				76D2569818CF68A1006C3BF8 /* User */,
+				76D256A118CF6903006C3BF8 /* Phone */,
+				76D256A018CF68FA006C3BF8 /* App */,
+				76D2569F18CF68F3006C3BF8 /* TX */,
+				76D2569E18CF68E7006C3BF8 /* Exchange */,
+				76D2569D18CF68DC006C3BF8 /* Contact */,
+				76D2569C18CF68D2006C3BF8 /* Address */,
+				76D2569B18CF68C1006C3BF8 /* Order */,
+				76D2569A18CF68B5006C3BF8 /* Product */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		76D2566218CF5BBB006C3BF8 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				76D2567618CF674D006C3BF8 /* BKObjectDefines.h */,
+				76D2567218CF6388006C3BF8 /* BKSession.h */,
+				76D2567318CF6388006C3BF8 /* BKSession.m */,
+				76D2565D18CF593B006C3BF8 /* BKResponse.h */,
+				76D2565E18CF593B006C3BF8 /* BKResponse.m */,
+				76D2566918CF5EE0006C3BF8 /* BKUser.h */,
+				76D2566A18CF5EE0006C3BF8 /* BKUser.m */,
+			);
+			name = Object;
+			sourceTree = "<group>";
+		};
+		76D2566D18CF6198006C3BF8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				76D2566E18CF61A7006C3BF8 /* NSString+Date.h */,
+				76D2566F18CF61A7006C3BF8 /* NSString+Date.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		76D2569818CF68A1006C3BF8 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				76D2566418CF5D04006C3BF8 /* BKAPIEngine+User.h */,
+				76D2566518CF5D04006C3BF8 /* BKAPIEngine+User.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		76D2569A18CF68B5006C3BF8 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				76D2569418CF6893006C3BF8 /* BKAPIEngine+Product.h */,
+				76D2569518CF6893006C3BF8 /* BKAPIEngine+Product.m */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
+		76D2569B18CF68C1006C3BF8 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				76D2569018CF6883006C3BF8 /* BKAPIEngine+Order.h */,
+				76D2569118CF6883006C3BF8 /* BKAPIEngine+Order.m */,
+			);
+			name = Order;
+			sourceTree = "<group>";
+		};
+		76D2569C18CF68D2006C3BF8 /* Address */ = {
+			isa = PBXGroup;
+			children = (
+				76D2568C18CF6873006C3BF8 /* BKAPIEngine+Address.h */,
+				76D2568D18CF6873006C3BF8 /* BKAPIEngine+Address.m */,
+			);
+			name = Address;
+			sourceTree = "<group>";
+		};
+		76D2569D18CF68DC006C3BF8 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				76D2568818CF685B006C3BF8 /* BKAPIEngine+Contact.h */,
+				76D2568918CF685B006C3BF8 /* BKAPIEngine+Contact.m */,
+			);
+			name = Contact;
+			sourceTree = "<group>";
+		};
+		76D2569E18CF68E7006C3BF8 /* Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				76D2568418CF6846006C3BF8 /* BKAPIEngine+Exchange.h */,
+				76D2568518CF6846006C3BF8 /* BKAPIEngine+Exchange.m */,
+			);
+			name = Exchange;
+			sourceTree = "<group>";
+		};
+		76D2569F18CF68F3006C3BF8 /* TX */ = {
+			isa = PBXGroup;
+			children = (
+				76D2568018CF6832006C3BF8 /* BKAPIEngine+TX.h */,
+				76D2568118CF6832006C3BF8 /* BKAPIEngine+TX.m */,
+			);
+			name = TX;
+			sourceTree = "<group>";
+		};
+		76D256A018CF68FA006C3BF8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				76D2567C18CF681A006C3BF8 /* BKAPIEngine+App.h */,
+				76D2567D18CF681A006C3BF8 /* BKAPIEngine+App.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		76D256A118CF6903006C3BF8 /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				76D2567818CF6804006C3BF8 /* BKAPIEngine+Phone.h */,
+				76D2567918CF6804006C3BF8 /* BKAPIEngine+Phone.m */,
+			);
+			name = Phone;
+			sourceTree = "<group>";
+		};
+		76D256A218CF690F006C3BF8 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				76D2565918CF58F6006C3BF8 /* BKAPIEngine.h */,
+				76D2565A18CF58F6006C3BF8 /* BKAPIEngine.m */,
+			);
+			name = Engine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,16 +486,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76D2568A18CF685B006C3BF8 /* BKAPIEngine+Contact.m in Sources */,
+				76D2567A18CF6804006C3BF8 /* BKAPIEngine+Phone.m in Sources */,
+				76D2566618CF5D04006C3BF8 /* BKAPIEngine+User.m in Sources */,
 				76D2565018CF56EC006C3BF8 /* AFURLConnectionOperation.m in Sources */,
+				76D2568218CF6832006C3BF8 /* BKAPIEngine+TX.m in Sources */,
+				76D2567418CF6388006C3BF8 /* BKSession.m in Sources */,
+				76D2565B18CF58F6006C3BF8 /* BKAPIEngine.m in Sources */,
+				76D2569618CF6893006C3BF8 /* BKAPIEngine+Product.m in Sources */,
 				76D2565418CF56EC006C3BF8 /* AFURLResponseSerialization.m in Sources */,
+				76D2569218CF6883006C3BF8 /* BKAPIEngine+Order.m in Sources */,
 				76D2564618CF56EC006C3BF8 /* AFHTTPRequestOperation.m in Sources */,
-				76D2561318CF5240006C3BF8 /* BifubaoKit.m in Sources */,
+				76D2568618CF6846006C3BF8 /* BKAPIEngine+Exchange.m in Sources */,
+				76D2565F18CF593B006C3BF8 /* BKResponse.m in Sources */,
 				76D2564C18CF56EC006C3BF8 /* AFNetworkReachabilityManager.m in Sources */,
 				76D2565618CF56EC006C3BF8 /* AFURLSessionManager.m in Sources */,
+				76D2568E18CF6873006C3BF8 /* BKAPIEngine+Address.m in Sources */,
 				76D2564818CF56EC006C3BF8 /* AFHTTPRequestOperationManager.m in Sources */,
 				76D2564E18CF56EC006C3BF8 /* AFSecurityPolicy.m in Sources */,
 				76D2564A18CF56EC006C3BF8 /* AFHTTPSessionManager.m in Sources */,
 				76D2565218CF56EC006C3BF8 /* AFURLRequestSerialization.m in Sources */,
+				76D2566B18CF5EE0006C3BF8 /* BKUser.m in Sources */,
+				76D2567E18CF681A006C3BF8 /* BKAPIEngine+App.m in Sources */,
+				76D2567018CF61A7006C3BF8 /* NSString+Date.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,15 +516,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76D2568718CF6846006C3BF8 /* BKAPIEngine+Exchange.m in Sources */,
 				76D2565118CF56EC006C3BF8 /* AFURLConnectionOperation.m in Sources */,
+				76D2568F18CF6873006C3BF8 /* BKAPIEngine+Address.m in Sources */,
 				76D2565518CF56EC006C3BF8 /* AFURLResponseSerialization.m in Sources */,
 				76D2564718CF56EC006C3BF8 /* AFHTTPRequestOperation.m in Sources */,
+				76D2568318CF6832006C3BF8 /* BKAPIEngine+TX.m in Sources */,
 				76D2562818CF5240006C3BF8 /* BifubaoKitTests.m in Sources */,
 				76D2564D18CF56EC006C3BF8 /* AFNetworkReachabilityManager.m in Sources */,
 				76D2565718CF56EC006C3BF8 /* AFURLSessionManager.m in Sources */,
+				76D2565C18CF58F6006C3BF8 /* BKAPIEngine.m in Sources */,
+				76D2567B18CF6804006C3BF8 /* BKAPIEngine+Phone.m in Sources */,
+				76D2567518CF6388006C3BF8 /* BKSession.m in Sources */,
+				76D2569318CF6883006C3BF8 /* BKAPIEngine+Order.m in Sources */,
+				76D2566018CF593B006C3BF8 /* BKResponse.m in Sources */,
 				76D2564918CF56EC006C3BF8 /* AFHTTPRequestOperationManager.m in Sources */,
 				76D2564F18CF56EC006C3BF8 /* AFSecurityPolicy.m in Sources */,
+				76D2568B18CF685B006C3BF8 /* BKAPIEngine+Contact.m in Sources */,
+				76D2569718CF6893006C3BF8 /* BKAPIEngine+Product.m in Sources */,
+				76D2567118CF61A7006C3BF8 /* NSString+Date.m in Sources */,
+				76D2567F18CF681A006C3BF8 /* BKAPIEngine+App.m in Sources */,
 				76D2564B18CF56EC006C3BF8 /* AFHTTPSessionManager.m in Sources */,
+				76D2566C18CF5EE0006C3BF8 /* BKUser.m in Sources */,
+				76D2566718CF5D04006C3BF8 /* BKAPIEngine+User.m in Sources */,
 				76D2565318CF56EC006C3BF8 /* AFURLRequestSerialization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

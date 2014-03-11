@@ -1,5 +1,4 @@
 # BifubaoKit
-==========
 
 A delightful iOS and OSX Bifubao SDK framework.
 
