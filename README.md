@@ -23,7 +23,17 @@ git submodule add https://github.com/0dayZh/BifubaoKit.git
 git submodule update --init --recursive
 `
 
+## SUBMODULES
+
+- AFNetworking 2.0
+
 ## Requirements
 
+- ARC
+- BifubaoKit and higher requires Xcode 5, targeting either iOS 6.0 and above, or Mac OS 10.8 Mountain Lion (64-bit with modern Cocoa runtime) and above.
+
+## RESOUCES
+
+- official API wiki: https://wiki.bifubao.com/twiki/bin/view/Main/DevDoc
 
 ## DONATE
