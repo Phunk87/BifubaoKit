@@ -9,6 +9,8 @@
 #ifndef BifubaoKit_BKAPIEngineDefines_h
 #define BifubaoKit_BKAPIEngineDefines_h
 
+#import "BKRequest.h"
+#import "BKResponse.h"
 #import "BKAPIEngine.h"
 
 #import "BIAPIEngine+User.h"

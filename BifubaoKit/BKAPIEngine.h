@@ -8,11 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
-@class BKResponse;
+@class BKRequest, BKResponse;
+
+typedef void (^BKRequestCompletionBlock)(BKResponse *);
+
 @interface BKAPIEngine : NSObject
 
 @property (nonatomic, assign, getter = isErrorHandleEnable) BOOL  errorHandleEnable;    // default as YES.
 
 + (instancetype)defaultEngine;
+
+- (void)sendRequest:(BKRequest *)request completion:(BKRequestCompletionBlock)hanler;
 
 @end

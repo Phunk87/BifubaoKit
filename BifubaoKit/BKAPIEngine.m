@@ -8,6 +8,9 @@
 
 #import "BKAPIEngine.h"
 
+#import "BKRequest.h"
+#import "BKResponse.h"
+
 @implementation BKAPIEngine
 
 + (instancetype)defaultEngine {
@@ -18,6 +21,10 @@
     });
     
     return engine;
+}
+
+- (void)sendRequest:(BKRequest *)request completion:(BKRequestCompletionBlock)hanler {
+    
 }
 
 @end

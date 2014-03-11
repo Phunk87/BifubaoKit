@@ -60,6 +60,8 @@
 		76D2569318CF6883006C3BF8 /* BKAPIEngine+Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2569118CF6883006C3BF8 /* BKAPIEngine+Order.m */; };
 		76D2569618CF6893006C3BF8 /* BKAPIEngine+Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2569518CF6893006C3BF8 /* BKAPIEngine+Product.m */; };
 		76D2569718CF6893006C3BF8 /* BKAPIEngine+Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2569518CF6893006C3BF8 /* BKAPIEngine+Product.m */; };
+		76D256A518CF69A0006C3BF8 /* BKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D256A418CF69A0006C3BF8 /* BKRequest.m */; };
+		76D256A618CF69A0006C3BF8 /* BKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D256A418CF69A0006C3BF8 /* BKRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,6 +147,8 @@
 		76D2569118CF6883006C3BF8 /* BKAPIEngine+Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BKAPIEngine+Order.m"; sourceTree = "<group>"; };
 		76D2569418CF6893006C3BF8 /* BKAPIEngine+Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BKAPIEngine+Product.h"; sourceTree = "<group>"; };
 		76D2569518CF6893006C3BF8 /* BKAPIEngine+Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BKAPIEngine+Product.m"; sourceTree = "<group>"; };
+		76D256A318CF69A0006C3BF8 /* BKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKRequest.h; sourceTree = "<group>"; };
+		76D256A418CF69A0006C3BF8 /* BKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -298,8 +302,6 @@
 				76D2567618CF674D006C3BF8 /* BKObjectDefines.h */,
 				76D2567218CF6388006C3BF8 /* BKSession.h */,
 				76D2567318CF6388006C3BF8 /* BKSession.m */,
-				76D2565D18CF593B006C3BF8 /* BKResponse.h */,
-				76D2565E18CF593B006C3BF8 /* BKResponse.m */,
 				76D2566918CF5EE0006C3BF8 /* BKUser.h */,
 				76D2566A18CF5EE0006C3BF8 /* BKUser.m */,
 			);
@@ -399,10 +401,22 @@
 		76D256A218CF690F006C3BF8 /* Engine */ = {
 			isa = PBXGroup;
 			children = (
+				76D256A718CF69A7006C3BF8 /* Object */,
 				76D2565918CF58F6006C3BF8 /* BKAPIEngine.h */,
 				76D2565A18CF58F6006C3BF8 /* BKAPIEngine.m */,
 			);
 			name = Engine;
+			sourceTree = "<group>";
+		};
+		76D256A718CF69A7006C3BF8 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				76D2565D18CF593B006C3BF8 /* BKResponse.h */,
+				76D2565E18CF593B006C3BF8 /* BKResponse.m */,
+				76D256A318CF69A0006C3BF8 /* BKRequest.h */,
+				76D256A418CF69A0006C3BF8 /* BKRequest.m */,
+			);
+			name = Object;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -506,6 +520,7 @@
 				76D2564E18CF56EC006C3BF8 /* AFSecurityPolicy.m in Sources */,
 				76D2564A18CF56EC006C3BF8 /* AFHTTPSessionManager.m in Sources */,
 				76D2565218CF56EC006C3BF8 /* AFURLRequestSerialization.m in Sources */,
+				76D256A518CF69A0006C3BF8 /* BKRequest.m in Sources */,
 				76D2566B18CF5EE0006C3BF8 /* BKUser.m in Sources */,
 				76D2567E18CF681A006C3BF8 /* BKAPIEngine+App.m in Sources */,
 				76D2567018CF61A7006C3BF8 /* NSString+Date.m in Sources */,
@@ -518,6 +533,7 @@
 			files = (
 				76D2568718CF6846006C3BF8 /* BKAPIEngine+Exchange.m in Sources */,
 				76D2565118CF56EC006C3BF8 /* AFURLConnectionOperation.m in Sources */,
+				76D256A618CF69A0006C3BF8 /* BKRequest.m in Sources */,
 				76D2568F18CF6873006C3BF8 /* BKAPIEngine+Address.m in Sources */,
 				76D2565518CF56EC006C3BF8 /* AFURLResponseSerialization.m in Sources */,
 				76D2564718CF56EC006C3BF8 /* AFHTTPRequestOperation.m in Sources */,

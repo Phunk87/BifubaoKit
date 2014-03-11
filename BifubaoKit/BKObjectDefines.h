@@ -10,7 +10,6 @@
 #define BifubaoKit_BKObjectDefines_h
 
 #import "BKSession.h"
-#import "BKResponse.h"
 #import "BKUser.h"
 
 #endif
