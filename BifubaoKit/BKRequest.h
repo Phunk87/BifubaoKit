@@ -10,6 +10,11 @@
 
 @interface BKRequest : NSObject
 
-@property (nonatomic, strong) NSDictionary  *para
+@property (nonatomic, strong) NSDictionary  *parameters;
+
++ (instancetype)requestWithHTTPMethod:(NSString *)httpMethod path:(NSString *)path isLoginNeeded:(BOOL)needLogin;
++ (instancetype)requestWithPath:(NSString *)path isLoginNeeded:(BOOL)needLogin; // Default httpMethod as @"POST"
+
+- (id)initWithHTTPMethod:(NSString *)httpMethod path:(NSString *)path isLoginNeeded:(BOOL)needLogin;
 
 @end

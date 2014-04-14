@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		766B9F9E18FAC0FE00BF2AB2 /* AFHTTPSessionManager+BKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 766B9F9D18FAC0FE00BF2AB2 /* AFHTTPSessionManager+BKRequest.m */; };
 		76D2560C18CF5240006C3BF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D2560B18CF5240006C3BF8 /* Foundation.framework */; };
 		76D2561A18CF5240006C3BF8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D2561918CF5240006C3BF8 /* XCTest.framework */; };
 		76D2561B18CF5240006C3BF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D2560B18CF5240006C3BF8 /* Foundation.framework */; };
@@ -87,6 +88,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		766B9F9C18FAC0FE00BF2AB2 /* AFHTTPSessionManager+BKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+BKRequest.h"; sourceTree = "<group>"; };
+		766B9F9D18FAC0FE00BF2AB2 /* AFHTTPSessionManager+BKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+BKRequest.m"; sourceTree = "<group>"; };
 		76D2560818CF5240006C3BF8 /* libBifubaoKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBifubaoKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		76D2560B18CF5240006C3BF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		76D2560F18CF5240006C3BF8 /* BifubaoKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BifubaoKit-Prefix.pch"; sourceTree = "<group>"; };
@@ -415,6 +418,8 @@
 				76D256A418CF69A0006C3BF8 /* BKRequest.m */,
 				76D2565D18CF593B006C3BF8 /* BKResponse.h */,
 				76D2565E18CF593B006C3BF8 /* BKResponse.m */,
+				766B9F9C18FAC0FE00BF2AB2 /* AFHTTPSessionManager+BKRequest.h */,
+				766B9F9D18FAC0FE00BF2AB2 /* AFHTTPSessionManager+BKRequest.m */,
 			);
 			name = Object;
 			sourceTree = "<group>";
@@ -507,6 +512,7 @@
 				76D2568218CF6832006C3BF8 /* BKAPIEngine+TX.m in Sources */,
 				76D2567418CF6388006C3BF8 /* BKSession.m in Sources */,
 				76D2565B18CF58F6006C3BF8 /* BKAPIEngine.m in Sources */,
+				766B9F9E18FAC0FE00BF2AB2 /* AFHTTPSessionManager+BKRequest.m in Sources */,
 				76D2569618CF6893006C3BF8 /* BKAPIEngine+Product.m in Sources */,
 				76D2565418CF56EC006C3BF8 /* AFURLResponseSerialization.m in Sources */,
 				76D2569218CF6883006C3BF8 /* BKAPIEngine+Order.m in Sources */,

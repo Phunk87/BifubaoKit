@@ -11,6 +11,7 @@
 #import "AFNetworking.h"
 #import "BKRequest.h"
 #import "BKResponse.h"
+#import "AFHTTPSessionManager+BKRequest.h"
 
 @interface BKAPIEngine ()
 
@@ -41,7 +42,7 @@
 }
 
 - (void)sendRequest:(BKRequest *)request completion:(BKRequestCompletionBlock)hanler {
-    
+    [self.sessionManager sendRequest:request WithCompletion:hanler];
 }
 
 @end

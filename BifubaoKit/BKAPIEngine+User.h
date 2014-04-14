@@ -10,4 +10,9 @@
 
 @interface BKAPIEngine (User)
 
+- (void)loginWithUserName:(NSString *)userName
+                 password:(NSString *)pwd
+                   gaCode:(NSString *)gaCode
+               completion:(BKRequestCompletionBlock)handler;
+
 @end

@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@class BKRequest, BKResponse;
+#import "BKRequest.h"
+#import "BKResponse.h"
 
 typedef void (^BKRequestCompletionBlock)(BKResponse *);
 

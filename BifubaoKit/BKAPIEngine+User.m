@@ -10,4 +10,13 @@
 
 @implementation BKAPIEngine (User)
 
+- (void)loginWithUserName:(NSString *)userName
+                 password:(NSString *)pwd
+                   gaCode:(NSString *)gaCode
+               completion:(BKRequestCompletionBlock)handler {
+    BKRequest *request = [BKRequest requestWithPath:@"user/login" isLoginNeeded:NO];
+    
+    [self sendRequest:request completion:handler];
+}
+
 @end
